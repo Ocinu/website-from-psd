@@ -1,0 +1,63 @@
+@media only screen and (max-device-width: 900px){
+    .content_nav{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .burger_menu{
+        visibility: visible;
+    }
+
+    .content_home{
+        top: 90px;
+    }
+
+    .title_home{
+        font-size: 24px;
+    }
+
+    .conteiner_skills{
+        background-color: unset;
+    }
+
+    .work__item{   
+        width: 100%;
+    }
+
+    .container{
+        justify-content: center;
+    }
+
+    .video__block{
+        width: auto;
+        height: auto;
+    }
+
+    #workprocess{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+    #testimonials{
+        height: auto;
+    }
+
+    .need{
+        padding-top: 20px;
+        height: 600px;
+    }
+
+    input[name=name], input[name=email]{
+        width: 100%;
+    }
+
+    input[name=email]{
+        margin-top: 30px;
+    }
+
+    .footer_cont{
+        transform: scale(0.7, 0.7);
+    }
+    
+}
